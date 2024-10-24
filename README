@@ -1,4 +1,4 @@
-Cache and Memory Hierarchy Simulator
+# Cache and Memory Hierarchy Simulator
 This project implements a flexible cache and memory hierarchy simulator in C++. The simulator is capable of modeling different cache configurations and memory hierarchies, including:
 
     Single-level (L1) cache
