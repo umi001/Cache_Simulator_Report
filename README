@@ -1,0 +1,23 @@
+Cache and Memory Hierarchy Simulator
+This project implements a flexible cache and memory hierarchy simulator in C++. The simulator is capable of modeling different cache configurations and memory hierarchies, including:
+
+    Single-level (L1) cache
+    Two-level (L1 + L2) cache
+    Caches with stream buffer prefetching
+
+Key Features:
+
+    Configurable cache parameters: size, associativity, and block size
+    LRU (Least Recently Used) replacement policy
+    Write-back and write-allocate policies
+    Stream buffer prefetching (for advanced configurations)
+    Trace-driven simulation
+
+Metrics Calculated:
+
+    Cache hit/miss rates
+    Memory traffic
+    Average Access Time (AAT)
+    Area estimates
+    Dynamic energy estimates
+
